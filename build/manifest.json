@@ -1,0 +1,25 @@
+{
+  "short_name": "bscswap",
+  "name": "bscswap",
+  "homepage_url": "https://bscswap.com/",
+  "providedBy": { "name": "bscswap", "url": "https://bscswap.com" },
+  "icons": [
+    {
+      "src": "./images/192x192_App_Icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./images/512x512_App_Icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "description": "DECENTRALIZED POST DEX OFFERINGS",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#FFBB00",
+  "background_color": "#fff"
+}
