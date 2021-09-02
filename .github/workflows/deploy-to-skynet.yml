@@ -18,8 +18,8 @@ jobs:
       - run: yarn build
 
       - name: "Deploy to Skynet"
-        uses: SkynetLabs/deploy-to-skynet-action@resolver-skylink
+        uses: SkynetLabs/deploy-to-skynet-action@v2
         with:
           upload-dir: build
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          registry-seed: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.SKYNET_REGISTRY_SEED || '' }}
+          registry-seed: ${{ secrets.SKYNET_REGISTRY_SEED || '' }}
