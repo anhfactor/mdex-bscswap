@@ -155,7 +155,7 @@ const Footer: React.FC = () => {
                     <Link02 />
                 </FooterCbox>
                 <BinanceLogo>
-                    <BinanceLogoLink href="https://www.binance.org/en" target="_blank"><img src={BLogo} /> </BinanceLogoLink>
+                    <BinanceLogoLink href="https://www.binance.org/en" target="_blank"><img alt="bscswap" src={BLogo} /> </BinanceLogoLink>
                 </BinanceLogo>
             </FooterFrame>
         </FooterBody>

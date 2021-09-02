@@ -17,27 +17,27 @@ const Tabs = styled.div`
 
 const activeClassName = 'ACTIVE'
 
-const StyledAbsoluteLink = styled.a`
-  ${({ theme }) => theme.flexRowNoWrap}
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  border-radius: 3rem;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  color: ${({ theme }) => theme.text3};
-  font-size: 20px;
-  &.${activeClassName} {
-    border-radius: 12px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text1};
-  }
-  :hover,
-  :focus {
-    color: ${({ theme }) => darken(0.1, theme.text1)};
-  }
-`
+// const StyledAbsoluteLink = styled.a`
+//   ${({ theme }) => theme.flexRowNoWrap}
+//   align-items: center;
+//   justify-content: center;
+//   height: 3rem;
+//   border-radius: 3rem;
+//   outline: none;
+//   cursor: pointer;
+//   text-decoration: none;
+//   color: ${({ theme }) => theme.text3};
+//   font-size: 20px;
+//   &.${activeClassName} {
+//     border-radius: 12px;
+//     font-weight: 500;
+//     color: ${({ theme }) => theme.text1};
+//   }
+//   :hover,
+//   :focus {
+//     color: ${({ theme }) => darken(0.1, theme.text1)};
+//   }
+// `
 
 const StyledNavLink = styled(NavLink).attrs({
   activeClassName

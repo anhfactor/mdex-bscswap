@@ -245,7 +245,7 @@ export default function AddLiquidity({
           </Text>
         </Row>
         <TYPE.italic fontSize={12} textAlign="left" padding={'8px 0 0 0 '}>
-          {t('outputIsEstimated') + ' ${allowedSlippage / 100}% ' + t('yourTransactionWill')}
+          {t('outputIsEstimated') + ` ${allowedSlippage / 100}% ` + t('yourTransactionWill')}
         </TYPE.italic>
       </AutoColumn>
     )
